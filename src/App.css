@@ -1,0 +1,59 @@
+/* Basic styles for the code editor */
+.code-editor{
+  height: 100vh;
+  width: 100%;
+  background-color: rgb(72, 81, 88);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url('./img/milad-fakurian-RlZrYad5IKk-unsplash-scaled-e1686660420798.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.editor textarea{
+  background-color: #b78add;
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+
+}
+
+.code-toolbar {
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.button {
+  background-color: #416e9e;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 3px;
+  margin-right: 10px;
+  transition:  0.5s ease-out;
+}
+::placeholder {
+  color: red;
+  opacity: 1; /* Firefox */
+}
+.button:hover{
+  background-color: #0f75e2;
+}
+
+.button--locked {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.copied{
+  width: 400px;
+  background-color: #0e0f0f;
+  border-radius: 10px;
+  padding: 10px 10px 10px 20px;
+  color: white;
+}
+
